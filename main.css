@@ -1,0 +1,63 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Verdana';
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.title, .subtitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    display: block;
+}
+
+.button-panel{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.button-panel button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px 4px 4px 10px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px lightgray;
+    cursor: pointer;
+}
+
+.button-panel button:hover{
+    background-color: #38a3c4;
+}
+
+.box{
+    display: table;
+    margin: 0 auto;
+    border: 1px solid black;
+}
